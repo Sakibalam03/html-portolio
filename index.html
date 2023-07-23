@@ -1,293 +1,243 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Portfolio Website</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="precennect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
+    <title>Portfolio</title>
 </head>
+<style>
+    .mystyle{
+        background-color: lightskyblue;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 5px solid black;
+    }
+</style>
 
 <body>
-    <!--Main Body-->
-    <div class="hero">
-        <nav>
-            <h2 class="logo">Port<span>folio</span></h2>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Experience</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Education</a></li>
-            </ul>
-            <a href="#" class="btn">Contact me</a>
-        </nav>
+    
+    <div class="mystyle">
+        <h1>About Me:</h1>
+    <table>
+        <tr>
+            <td><p style="font-size: 25px;">Hello everyone, my name is Sakib Alam! I am a sophmore at Kalinga Institute of Industrial Technology pursuing my 
+                bachelors in Computer Science Engineering. I am a front-end web developer and can write clean code with good design.
+                I am currently interested in the Blockchain Industry and am actively trying to learn it and integrate it in my 
+                workflow. I also have demonstrated experience in Python and MySQL and have completed 2 International Internships on 
+                the same. I love photography and watching cat videos on Instagram. Scroll down to browse through my work and enjoy!</p></td>
+            <td><img src="./Images/sakib.png" width="400" height="450" alt="Sakibs Picture"></td>
+        </tr>
+    </table>
 
-        <div class="content">
-            <h4>Hi ,I'm</h4>
-            <h1>Sakib <span>Alam</span></h1>
-            <h3>I'm a Web Developer.</h3>
-            <div class="newslatter">
-                <form action="">
-                    <input type="email" name="email" id="mail" placeholder="Enter your Email">
-                    <input type="submit" name="submit" value="Connect!">
-                </form>
-            </div>
-        </div>
+    <hr>
 
+    <h1>Projects:</h1>
+    <table border="1" style="font-size: 20px;">
+        <thead>
+            <tr>
+                <th>Project Name</th>
+                <th>Languages</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Portfolio Website</td> 
+                <td>HTML</td>
+                <td>A website built entirely on html. Encompases all of me within an html file lmao.</td>
+            </tr>
+    
+            <tr>
+                <td>Hospital Management System</td> 
+                <td>Python, Tkinter, MySQL</td>
+                <td>A hospital management system capable of retrieving, storing, editing, viewing and removing patient data on demand.</td>
+            </tr>
+    
+            <tr>
+                <td>Resume Scanner</td> 
+                <td>Python, Tkinter, Sklearn</td>
+                <td>A resume scanner utilising sklearn and keyword-matching with job description to shortlist candidate resumes.</td>
+            </tr>
+    
+        </tbody>
+    </table>
+    
+    <hr>
+
+    <h1>Work Experience</h1>
+    <table border="1" style="font-size: 20px;">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Work</th>
+                <th>Work Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>March 2023-Present</td>
+                <td>Marketing and Sponsorship Executive</td>
+                <td>Responsible for carrying out college events and it's sponsorships.</td>
+            </tr>   
+            <tr>
+                <td>Dec 2022-Present</td>
+                <td>Corporate Connect Executive</td>
+                <td>I communicate with animal NGO's all over India to gather information for all sorts of emergency cases and update it on the company database.</td>
+            </tr>
+            <tr>
+                <td>June 2022-July 2022</td>
+                <td>Research Analyst at UC Berkeley</td>
+                <td>Did professional communication and advanced analysis on Big Data, performed Survey research, made analysis and built a presentation on it.</td>
+            </tr>
+            <tr>
+                <td>April 2022-June 2022</td>
+                <td>Data Science Intern at GlobalCert</td>
+                <td>Performed advanced data extraction and manipulation to manage large data sets. Developed software programs to evaluate large datasets and solve business problems.</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <h1>Photography:</h1> 
+    <h4>Below is a list of the best pictures I have shot and edited on my Xiaomi 11 Lite NE 5g.</h4>
+    <img src="./Images/hwh_bridge-2.png" width="400" height="405" alt="Howrah Bridge 2">
+    <img src="./Images/hwh_bridge.png" width="400" height="400" alt="Howrah Bridge">
+    <img src="./Images/kiit-rose-garden.png" width="400" height="400" alt="KIIT Rose Garden">
+    <img src="./Images/mullick-ghat.png" width="400" height="405" alt="Mullick Ghat Flowers">
+    <p style="font-size: 20px;">Follow my <a href="https://www.instagram.com/_.thesakibalam._/">Instagram</a> account for more.</p>
+    
+    <hr>
+
+    <h1>Skills:</h1>
+    <table border="1px" style="font-size: 21px;">
+        <tr>
+            <th>Technical Skills</th>
+            <td>Python</td>
+            <td>C</td>
+            <td>HTML</td>
+            <td>CSS</td>
+            <td>JavaScript</td>
+            <td>SQL</td>
+            <td>Adobe Lightroom</td>
+            <td>Data Analysis</td>
+            <td>Photography</td>
+            <td>Microsoft PowerPoint</td>
+            <td>Microsoft Excel</td>
+
+        </tr>
+
+        <tr>
+            <th>Soft Skills</th>
+            <td>Leadership</td>
+            <td>Teamwork</td>
+            <td>Communication</td>
+            <td>Time Management</td>
+            <td>Problem Solving</td>
+            <td>Adaptability</td>
+            <td>Interpersonal Skills</td>
+            <td>Conflict Resolution</td>
+            <td>Flexibility</td>
+            <td>Marketing</td>
+            <td>Strategy</td>
+
+        </tr>
+    </table>
+    <hr>
+
+    <h1>Education:</h1>
+    <ul style="font-size: 20px;">
+        <li>
+            <h3>Kalinga Institute of Industrial Technology</h3>
+            <h4>B.Tech in Computer Science Engineering  2022 - 2026</h4>
+        </li>
+        <li>
+            <h3>Indus Valley World School</h3>
+            <h4>Central Board of Secondary Education  2019 - 2021</h4>
+            <p><b>Subjects:</b> Phycics, Chemistry, Maths. Computer, English, Physical Education.</p>
+        </li>
+        <li>
+            <h3>South Point High School</h3>
+            <h4>Central Board of Secondary Education  2015 - 2019</h4>
+            <p><b>Subjects:</b> English, Bengali, Maths, Science, Social Science.</p>
+        </li>
+    </ul>
+    <hr>
+
+    <h1>Awards and Achievements</h1>
+    <table border="1" style="font-size: 20px;">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Organization</th>
+                <th>Award</th>
+                <th>Award Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>June 2023</td>
+                <td>Kalinga Institute of Industrial Technology</td>
+                <td>UG Research Paper Presenter</td>
+                <td>Presented a research paper titled "Application of Machine Learning in Short-Listing resumes".</td>
+            </tr>   
+            <tr>
+                <td>February 2020</td>
+                <td>International English Olympiad, IEO(SOF)</td>
+                <td>Gold Medallist</td>
+                <td>Secured Gold Medal in International English Olympiad with International rank 34, Regional rank 21 and Zonal rank 
+                    13 out of 5,00,000 candidates.</td>
+            </tr>
+            <tr>
+                <td>December 2019</td>
+                <td>Indus Valley World School</td>
+                <td>Bronze Medallist</td>
+                <td>Secured Bronze Medal in Inter-house relay race competition.</td>
+            </tr>
+            <tr>
+                <td>September 2019</td>
+                <td>International English Olympiad, IEO(SOF)</td>
+                <td>Silver Medallist</td>
+                <td>Secured Silver Medal in International English Olympiad with International rank 576 and Zonal Distinction out of 
+                    5,00,000 candidates.</td>
+            </tr>
+            <tr>
+                <td>May 2016</td>
+                <td>South Point High School</td>
+                <td>Bronze Medallist</td>
+                <td>Secured Bronze Medal in Inter-house rock-climbing competition.</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <h1>Contact Me:</h1>
+    <h2><strong>Socials</strong></h2>
+    <ol style="font-size: 20px;">
+        <li><a href="https://www.linkedin.com/in/sakib-alam-22b20817a/">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/_.thesakibalam._/">Instagram</a></li>
+        <li><a href="https://www.facebook.com/sarocks2k3">Facebook</a></li>
+        <li><a href="https://twitter.com/thesakibalam">Twitter</a></li>
+    </ol>
+
+    <form action="mailto:sarocks662@gmail.com" enctype="text/plain" method="post" style="font-size: 20px;">
+        <label>Your Full Name:</label>
+        <input type="text" name="yourName" value=""><br>
+        <label>Your Email Address:</label>
+        <input type="email" name="yourEmail" value=""><br>
+        <label>Your Message:</label><br>
+        <textarea name="yourMessage" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" name="">
+
+    </form>
+    <hr>
+    <h2>Locals</h2>
+    <ul style="font-size: 20px;">
+        <li>Phone Number: 9830646845</li>
+        <li>Email Address: sarocks662@gmail.com</li>
+        <li>Address: 2, Rajdanga Main Road; RNB APARTMENT; FLAT-C1, BLOCK-B; PS & PO KASBA</li>
+    </ul>
+    <hr>
     </div>
-
-    <!--About section starts-->
-    <section class="about">
-        <div class="main">
-            <img src="aboutimg.jpg" alt="">
-            <div class="about-text">
-                <h2>About Me</h2>
-                <h5>Web<span> Developer </span>& Blockchain<span> Enthusiast </span></h5>
-                <p>I am a front-end web developer. I can write clean code with good design. As an organized and dependable candidate, I am successful at managing priorities with a positive attitude and am willing to take on added responsibilities to meet development goals. I am currently interested in the Blockchain Industry and am actively trying to learn it and integrate it in my workflow.I also have demonstrated experience in Python and MySQL and have completed 2 International Internships on the same. I love photography and watching cat videos on Instagram.;)
-                </p>
-                <button type="button">Let's Talk!</button>
-            </div>
-        </div>
-    </section>
-
-    <!--Experience Section start-->
-    <div class="experience">
-        <div class="title">
-            <h2>Experience</h2>
-        </div>
-        
-        <div class="box">
-            <div class="carde">
-                <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-                <i class="fa fa-paw"></i>
-                <h5><u>Corporate Connect <span>Executive</span></u></h5>
-                <h5>at</h5>
-                <h5><u>Little <span>Paws</span> Care</u></h5>
-                <h5><u>Dec 2022 - Present</u></h5>
-                <div class="pra">
-                    <p>I communicate with animal NGO's all over India to gather information for all sorts of emergency cases. Then I update that information on the company database.</p>   
-                    <h3 class="aspect"><u>Aspects Covered</u>:</h3>                 
-                    <li class="exp-list">Professional Communication</li>
-                    <li class="exp-list">Social Research</li>
-                    <li class="exp-list">Public Outreach</li>
-                    <li class="exp-list">Social Service</li>
-                    <li class="exp-list">Microsoft Excel</li>
-                    <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                    </p>
-                </div>
-            </div>
-            
-            <div class="carde">
-                <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-                <i class="fa fa-book"></i>
-                <h5><u>Research <span>Analyst</span></u></h5>
-                <h5>at</h5>
-                <h5><u>UC Berkeley, <span>HAAS</span></u></h5>
-                <h5><u>June 2022 - July 2022</u></h5>
-                <div class="pra">
-                    <p>Did professional communication and advanced analysis on Big Data. Performed Survey research, made analysis and built a presentation encompassing the entire project.</p>
-                    <h3 class="aspect"><u>Aspects Covered</u>:</h3> 
-                    <li class="exp-list">Big-Data Scraping</li>
-                    <li class="exp-list">Big-Data Insights</li>
-                    <li class="exp-list">Data Visualization</li>
-                    <li class="exp-list">Data-Insight Presentation</li>
-                    <li class="exp-list">Survey Research</li>
-                    <li class="exp-list">Digitization</li>
-                    <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="carde">
-                <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-                <i class="fa fa-database"></i>
-                <h5><u>Data Science <span>Intern</span></u></h5>
-                <h5>at</h5>
-                <h5><u><span>GlobalCert</span> </u></h5>
-                <h5><u>April 2022 - June 2022</u></h5>
-                <div class="pra">
-                    <p>Performed advanced data extraction and manipulation to manage large data sets.Developed software programs to evaluate large datasets and solve business problems.</p>
-                    <h3 class="aspect"><u>Aspects Covered</u>:</h3> 
-                    <li class="exp-list">Data Extraction</li>
-                    <li class="exp-list">Data Manipulation</li>
-                    <li class="exp-list">MatPlotLib</li>
-                    <li class="exp-list">Python</li>
-                    <li class="exp-list">Tkinter</li>
-                    <li class="exp-list">Presentation</li>
-                    <li class="exp-list">Business Solution</li>
-                    <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--Skills-->
-    <section class="skills">
-        <div class="title">
-            <h2>Skills</h2>
-        </div>
-
-        <div>
-            <div class="box">
-                <div class="cards">
-                    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-                    <i class="fa fa-code"></i>
-                    <h5 class="skillshead"><u><span>Technical</span> Skills</u></h5>
-                    <div class="pra">
-                            <li class="skill-list"><a href="https://www.python.org/">Python</a></li>
-                            <li class="skill-list"><a href="https://www.mysql.com/">MySQL</a></li>
-                            <li class="skill-list"><a href="https://docs.python.org/3/library/tkinter.html">Tkinter</a></li>
-                            <li class="skill-list"><a href="https://www.w3schools.com/c/c_intro.php">C</a></li>
-                            <li class="skill-list"><a href="https://html.com/">HTML</a></li>
-                            <li class="skill-list"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-                            <li class="skill-list"><a href="https://github.com/">GitHub</a></li>
-                            <li class="skill-list"><a href="https://www.microsoft.com/en-in/microsoft-365/powerpoint">MS Powerpoint</a></li>
-                            <li class="skill-list"><a href="https://www.microsoft.com/en/microsoft-365/excel">MS Excel</a></li>
-                            <li class="skill-list"><a href="https://www.microsoft.com/en-ww/microsoft-365/word?activetab=tabs%3afaqheaderregion3">MS Word</a></li>           
-                    </div>
-                </div>
     
-             <div class="box">
-                   <div class="cards">
-                    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-                    <i class="fas fa-brain"></i>
-                       <h5 class="skillshead"><u><span>Soft</span> Skills</u></h5>
-                       <div class="pra">
-                            <li class="skill-list">English</li>
-                            <li class="skill-list">Communication</li>
-                            <li class="skill-list">TeamWork</li>
-                            <li class="skill-list">Analytical Skills</li>
-                            <li class="skill-list">Survey Research</li>
-                            <li class="skill-list">Project Management</li>
-                            <li class="skill-list">Strategy</li>
-                            <li class="skill-list">Data Analysis</li>
-                            <li class="skill-list">Data Visualization</li>
-                            <li class="skill-list">Photography</li>  
-                       </div>
-                   </div>
-        </div>
-
-    </section>
-
-    <!--Projects-->
-    <section class="projects">
-        <div class="title">
-            <h2>Projects</h2>
-        </div>
-
-        <div class="box">
-            <div class="cardp">
-                <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-                <i class="fa fa-user"></i>
-                <h5><span>Portfolio</span> Website</h5>
-                <div class="pra">
-                    <p>A Visually-Aesthetic and Interactive portfolio website, built entirely on HTML and CSS. This gives user the idea of how simple code can give beautiful results.</p>                    
-
-                    <p style="text-align: center;">
-                        <a class="button" href="#"><a href="https://github.com/Sakibalam03/cv">Go to Project</a></a>
-                    </p>
-                </div>
-            </div>
-            
-            
-            <div class="cardp">
-                <link href="https://maxcdn.bootstrapcdn.com/font-awesome/6.3.0/css/font-awesome.min.css" rel="stylesheet">
-                <i class="fab fa-python"></i>
-                <h5><span>Resume</span> Scanner</h5> 
-                <div class="pra">
-                    <p>Performed advanced data extraction and manipulation to manage large data sets.Developed software programs to evaluate large datasets and solve business problems.</p>
-
-                    <p style="text-align: center;">
-                        <a class="button" href="#"><a href="http://">Go to Project</a></a>
-                    </p>
-                </div>
-            </div>
-
-
-
-            <div class="cardp">
-                <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-                <i class="fa fa-hospital"></i>
-                <h5><span>Hospital</span> Management System</h5>
-                <div class="pra">
-                    <p>Did professional communication and advanced analysis on Big Data. Performed Survey research, made analysis and built a presentation encompassing the entire project.</p>
-    
-                    <p style="text-align: center;">
-                        <a class="button" href="#"><a href="http://">Go to Project</a></a>
-                    </p>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-
-    <!--Education-->
-    <section class="education">
-        <div class="title">
-            <h2>Education</h2>
-        </div>
-
-        <div>
-            <div class="box">
-                <div class="carded">
-                    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-                    <i class="fa fa-paw"></i>
-                    <h5>Kalinga Istitute of Industrial Technology</h5>
-                    <div class="pra">
-                        <p></p>                    
-    
-                        <p style="text-align: center;">
-                            <a class="button" href="#">Read More</a>
-                        </p>
-                    </div>
-                </div>
-    
-             <div class="box">
-                   <div class="carded">
-                       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-                       <i class="fa fa-paw"></i>
-                       <h5>Indus Valley World School</h5>
-                       <div class="pra">
-                           <p></p>                    
-                            
-                           <p style="text-align: center;">
-                                <a class="button" href="#">Read More</a>
-                           </p>
-                       </div>
-                   </div>
-        </div>
-
-    </section>
-
-    
-    <!--Contact Me-->
-    <div class="contact-me">
-        <p>Let's Connect!</p>
-        <a class="button-two" href="#">Connect</a>
-    </div>
-
-    <!--footer start-->
-    <footer>
-        <p>Sakib Alam</p>
-        <p>
-            Kings Palace 7AB, Campus 10, Kalinga Institute of Industrial Technology, Patia, Bhubaneshwar, Odhisa
-        </p>
-        <div class="social">
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-        </div>
-        <p class="end">CopyRight By Sakib Alam</p>
-    </footer>
 
 </body>
-
 </html>
